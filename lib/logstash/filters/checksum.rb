@@ -7,7 +7,7 @@ require "logstash/namespace"
 # This can be useful for deduplication of messages or simply to provide
 # a custom unique identifier.
 #
-# This is VERY experimental and is largely a proof-of-concept
+# This plugin is DEPRECATED and will be replaced by fingerprint filter in the future.
 class LogStash::Filters::Checksum < LogStash::Filters::Base
 
   config_name "checksum"
